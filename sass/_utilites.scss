@@ -6,40 +6,47 @@
   overflow: hidden;
 }
 
+
+// ////SECTION
+section {
+  border-bottom: 3.5px #2F445F solid;
+}
+
 /////// BUTTON STYLE
 %btn-shared {
   display: inline-block;
-  padding: .9rem 1.8rem;
+  padding: .75rem 2rem;
   cursor: pointer;
-  border: none;
-  margin: .5rem 0;
+  border: 3px solid #fff;
+  margin: .4rem 0;
   transition: all .5s;
+  border-radius: 5px;
 }
 
 .btn {
   &-main {
     @extend %btn-shared;
-    color: $dark-color;
-    background-color: $main-color;
+    // color: $dark-color;
+    // background-color: $main-color;
   }
 
   &-light {
     @extend %btn-shared;
-    color: $dark-color;
-    background-color: $light-color;
+    // color: $dark-color;
+    // background-color: $light-color;
   }
 
   &-dark {
     @extend %btn-shared;
-    color: $light-color;
-    background-color: $dark-color;
+    // color: $light-color;
+    // background-color: $dark-color;
   }
 }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: $main-color;
+  background-color: rgb(17, 28, 41);
 }
 
 /////// BACKGROUNDS

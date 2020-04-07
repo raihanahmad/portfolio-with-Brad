@@ -1,11 +1,10 @@
 //////// VARIABLES
 $web-width: 1200px;
-$main-color: #f88f8f;
-$light-color: #f1f1f1;
-$dark-color: #333;
-$medium-color: #ddd;
-$bg-img: url('../img/showcase.jpg');
-// $bg-img: #2F445F;
+$main-color: #2F445F;
+$light-color: rgb(239, 244, 251);
+$dark-color: rgb(22, 34, 51);
+$medium-color: rgb(211, 219, 229);
+$bg-img: #2F445F;
 
 //////// TEXT COLOR FUNCTION
 @function text-color-set ($color) {

@@ -31,13 +31,13 @@
       <h2 class="section-title">Contact Me</h2>
       <div class="bottom-line"></div>
       <p class="lead">Lorem ipsum dolor sit amet.</p>
-      <form>
+      <form name="contact" method="POST" data-netlify="true">
         <div class="text-fields">
-          <input type="text" class="text-input name-input" placeholder="Name">
-          <input type="text" class="text-input subject-input" placeholder="Subject">
-          <input type="email" class="text-input email-input" placeholder="Email">
-          <input type="phone" class="text-input number-input" placeholder="Number">
-          <textarea class="text-input message-input" placeholder="Message"></textarea>
+          <input type="text" name="name" class="text-input name-input" placeholder="Name">
+          <input type="text"  class="text-input subject-input" placeholder="Subject">
+          <input type="email" name="email" class="text-input email-input" placeholder="Email">
+          <input type="phone" name="phone" class="text-input number-input" placeholder="Number">
+          <textarea name="message" class="text-input message-input" placeholder="Message"></textarea>
         </div>
         <button type="submit" class="btn-dark">Submit</button>
       </form>

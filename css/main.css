@@ -132,13 +132,22 @@ img {
     #main-nav a.current {
       border-color: #ffff; }
 
+#header-home .container {
+  height: 100%; }
+  #header-home .container .h-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 100%; }
+
 #header-home {
   background: #2F445F center right/cover;
   color: #fff;
   height: 100vh; }
   #header-home .header-content {
-    text-align: center;
-    margin-top: 16%; }
+    text-align: center; }
     #header-home .header-content h1 {
       font-family: "Roboto Slab", serif;
       font-size: 3.6rem;
@@ -429,18 +438,12 @@ img {
 @media (max-width: 1100px) {
   #header-home {
     height: 50rem; }
-    #header-home .header-content {
-      margin-top: 25%; }
-      #header-home .header-content h1 {
-        font-size: 3rem; } }
+    #header-home .header-content h1 {
+      font-size: 3rem; } }
 
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem; }
-    #header-home .header-content {
-      margin-top: 10%; }
-      #header-home .header-content h1 {
-        font-size: 3rem; } }
+    height: 30rem; } }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -450,12 +453,10 @@ img {
       padding: 0.8rem 1rem; }
   #header-home {
     height: 100vh; }
-    #header-home .header-content {
-      margin-top: 35%; }
-      #header-home .header-content h1 {
-        font-size: 3rem; }
   #header-inner {
     height: 10rem; }
+  #header-home .container .h-main-container {
+    height: 80%; }
   #home-a .specialize,
   #home-b .productivity,
   #home-c .process,
@@ -500,9 +501,3 @@ img {
       align-items: center; }
       #main-footer .footer-content .social .fab {
         margin: .4rem; } }
-
-@media (max-height: 360px) {
-  #header-home .header-content {
-    margin-top: 5%; }
-  #header-home .header-content h1 {
-    font-size: 2rem; } }
